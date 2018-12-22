@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+Function isEmpty() return if stack is empty or not. 
+Input a stack pointer to argument.
+*/
+ 
 #include "struct.cpp"
 
 bool isEmpty(elem* stos){

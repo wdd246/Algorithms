@@ -1,8 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+Function topEl() return last(top) value on a stack. 
+Stack in c++ is LIFO structure. Last in first out.
+First input value is on he bottom. Last on the top. 
+Input a stack pointer to argument.
+*/
 #include "struct.cpp"
 
 int topEl(elem* &stos){
@@ -11,5 +12,5 @@ int topEl(elem* &stos){
         return wynik;
     }
     else
-        throw runtime_error("Pusty stos"); 
+        throw "Pusty stos"; 
 }

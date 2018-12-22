@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Function pop() recives value from a stack.
+Pop recive a value and delete it from stack.
+Input a stack pointer to argument.
  */
 
 #include "struct.cpp"
@@ -15,5 +15,5 @@ int pop(elem* &stos){
         return wynik;
     } 
     else 
-        throw runtime_error("Pusty stos");
+        throw "Pusty stos";
 }

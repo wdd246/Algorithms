@@ -1,9 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Function push() insert value to a stack. 
+New value will be on the top of stack.
+Input a stack pointer to argument and a value to input.
  */
 #include "struct.cpp"
+
 
 void push(elem* &stos, int x){
     elem* nowy = new elem;
